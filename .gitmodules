@@ -4,3 +4,6 @@
 [submodule "site-lisp/yasnippet"]
 	path = site-lisp/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
+[submodule "site-lisp/flymake-python-pyflakes"]
+	path = site-lisp/flymake-python-pyflakes
+	url = https://github.com/purcell/flymake-python-pyflakes.git
