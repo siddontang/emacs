@@ -3,6 +3,9 @@
 
 (require 'init-common)
 (require 'init-unicode)
+
+(require 'init-flymake)
+
 (require 'init-yasnippet)
 (require 'init-auto-complete)
 
