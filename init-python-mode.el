@@ -1,5 +1,3 @@
-(add-to-list 'load-path 
-	     "~/.emacs.d/site-lisp/flymake-python-pyflakes")
 
 (autoload 'python-mode "python-mode" "Python Mode." t)
 (autoload 'doctest-mode "doctest-mode" "Python doctest editing mode." t)
