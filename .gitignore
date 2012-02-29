@@ -3,3 +3,5 @@ abbrev_defs
 *.dat
 server
 .ropeproject
+ede-projects.el
+init.el.before_ecb_2.40
