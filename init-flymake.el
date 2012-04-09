@@ -1,3 +1,8 @@
+(add-to-list 'load-path
+	     "~/.emacs.d/site-lisp/flymake")
+
+(require 'flymake)
+
 (setq flymake-gui-warnings-enabled nil)
 
 (add-to-list 'load-path
@@ -40,6 +45,33 @@ Return nil if we cannot, non-nil if we can."
                                                    compile)
        (mapc 'fringe-helper-remove flymake-fringe-overlays)
        (setq flymake-fringe-overlays nil))))
+
+(setq flymake-no-changes-timeout 600)
+
+(global-set-key (kbd "<f11>") 'flymake-start-syntax-check)
+(global-set-key (kbd "<f12>") 'flymake-stop-all-syntax-checks)
+
+;; run 8 checks at once 
+(setq flymake-max-parallel-syntax-checks 8)
+
+;; I don't want no steekin' limits.
+;;(setq flymake-max-parallel-syntax-checks nil)
+
+;; Yes, I want my copies in the same dir as the original.
+;;(setq flymake-run-in-place t)
+
+;; Nope, I want my copies in the system temp dir.
+(setq flymake-run-in-place nil)
+
+;; This lets me say where my temp dir is.
+(setq temporary-file-directory "~/.emacs.d/tmp/")
+
+;; I want to see at most the first 4 errors for a line.
+(setq flymake-number-of-errors-to-display 4)
+
+;; I want to see all errors for the line.
+;;(setq flymake-number-of-errors-to-display nil)
+
 
 
 (provide 'init-flymake)

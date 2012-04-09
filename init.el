@@ -8,8 +8,10 @@
 
 (require 'init-flymake)
 
-(require 'init-yasnippet)
-(require 'init-auto-complete)
+;;(require 'init-yasnippet)
+;;(require 'init-auto-complete)
 
 (require 'init-python-mode)
-(require 'init-ecb)
+;;(require 'init-ecb)
+
+(require 'init-asymptote)

@@ -26,6 +26,21 @@
 (setq ecb-auto-compatibility-check nil)
 (setq ecb-version-check nil)
 
+(setq ecb-layout-name "left3")
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(ecb-layout-window-sizes (quote (("left3" (0.15425531914893617 . 0.2727272727272727) (0.15425531914893617 . 0.32727272727272727) (0.15425531914893617 . 0.34545454545454546))))))
+(custom-set-faces
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ )
+
+
 ;;;; window move
 (global-set-key [M-left] 'windmove-left)
 (global-set-key [M-right] 'windmove-right)
