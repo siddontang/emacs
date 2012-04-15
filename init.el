@@ -15,3 +15,6 @@
 ;;(require 'init-ecb)
 
 (require 'init-asymptote)
+
+(require 'init-abbrev)
+(require 'init-skeleton)
