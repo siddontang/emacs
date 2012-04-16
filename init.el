@@ -14,4 +14,6 @@
 (require 'init-python-mode)
 ;;(require 'init-ecb)
 
-(require 'init-asymptote)
+;;(require 'init-asymptote)
+
+(require 'init-cc-mode)
