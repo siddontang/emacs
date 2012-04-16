@@ -17,3 +17,8 @@
 ;;(require 'init-asymptote)
 
 (require 'init-cc-mode)
+
+
+(require 'init-abbrev)
+(require 'init-skeleton)
+
