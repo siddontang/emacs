@@ -22,3 +22,6 @@
 (require 'init-abbrev)
 (require 'init-skeleton)
 
+(require 'init-javascript)
+
+(require 'init-rst)
