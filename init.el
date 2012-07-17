@@ -25,3 +25,7 @@
 (require 'init-javascript)
 
 (require 'init-rst)
+
+(require 'init-multi-web-mode)
+
+(require 'init-php-mode)
